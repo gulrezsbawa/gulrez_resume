@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gulrez_resume/static/css/main.61ac7470.css",
+    "main.js": "/gulrez_resume/static/js/main.040e86fd.js",
+    "index.html": "/gulrez_resume/index.html",
+    "main.61ac7470.css.map": "/gulrez_resume/static/css/main.61ac7470.css.map",
+    "main.040e86fd.js.map": "/gulrez_resume/static/js/main.040e86fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61ac7470.css",
+    "static/js/main.040e86fd.js"
+  ]
+}
