@@ -7,13 +7,13 @@ export const Body = styled("div", ({ $theme: { mediaQuery } }) => ({
   "-moz-box-shadow": "0 4px 5px rgba(57, 63, 72, 0.3)",
   boxShadow: "0 4px 5px rgba(57, 63, 72, 0.3)",
   width: "calc(100vw - 40px)",
-  height: "184px",
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
   flexDirection: "column",
   padding: "0 20px",
   [mediaQuery.medium]: {
+    height: "216px",
     width: "calc(100vw - 168px)",
     padding: "0 84px",
   },
@@ -38,15 +38,20 @@ export const Designation = styled(
   })
 );
 
-export const BriefSummary = styled("div", ({ $theme: { mediaQuery } }) => ({
-  fontSize: "14px",
-  color: "#1A1110",
-  display: "-webkit-box",
-  "-webkit-line-clamp": 4,
-  "-webkit-box-orient": "vertical",
-  overflow: "hidden",
-  textOverflow: "ellipsis",
-  [mediaQuery.medium]: {
-    fontSize: "18px",
-  },
-}));
+export const BriefSummary = styled(
+  "div",
+  ({ $theme: { mediaQuery, sizing } }) => ({
+    fontSize: "14px",
+    color: "#1A1110",
+    paddingBottom: sizing.scale600,
+    [mediaQuery.medium]: {
+      fontSize: "18px",
+      display: "-webkit-box",
+      "-webkit-line-clamp": 4,
+      "-webkit-box-orient": "vertical",
+      overflow: "hidden",
+      textOverflow: "ellipsis",
+      paddingBottom: 0,
+    },
+  })
+);

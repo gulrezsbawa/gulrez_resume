@@ -1,7 +1,9 @@
 import { styled } from "baseui";
 import { THEME_COLOR } from "../../constant";
 
-export const Wrapper = styled("div", ({ $theme: { mediaQuery } }) => ({}));
+export const Wrapper = styled("div", ({ $theme: { sizing } }) => ({
+  marginBottom: sizing.scale600,
+}));
 
 export const Details = styled("div", ({ $theme: { sizing } }) => ({
   marginBottom: sizing.scale300,

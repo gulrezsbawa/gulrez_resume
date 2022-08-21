@@ -13,7 +13,7 @@ export const List = ({ title, list }) => (
   <Wrapper>
     <Title>{title}</Title>
     {list.map(({ name, year, subTitle, details }) => (
-      <Details key={name}>
+      <Details key={`${title}_${name || subTitle}`}>
         <Name>{name}</Name>
         <SubTitle>{subTitle}</SubTitle>
         <Year>{year}</Year>

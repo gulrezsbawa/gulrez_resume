@@ -5,7 +5,7 @@ export const Tags = ({ title, list }) => (
     <Title>{title}</Title>
     <ListWrapper>
       {list.map((item) => (
-        <List key={item}>{item}</List>
+        <List key={`${title}_${item}`}>{item}</List>
       ))}
     </ListWrapper>
   </Wrapper>
