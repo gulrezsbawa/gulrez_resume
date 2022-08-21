@@ -1,6 +1,6 @@
 {
-  "short_name": "Kaveri",
-  "name": "Kaveri Resume",
+  "short_name": "Gulrez",
+  "name": "Gulrez Resume",
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/kaveri_resume/",
+  "start_url": "/gulrez_resume/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
