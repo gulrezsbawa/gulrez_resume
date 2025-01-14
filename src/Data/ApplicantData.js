@@ -1,7 +1,7 @@
 export const applicantData = {
   applicantName: "Gulrez",
-  designation: "Fullstak Software Developer",
-  briefSummary: `Fullstak Software Developer with 9 years of proven leadership
+  designation: "Fullstack Software Developer",
+  briefSummary: `Fullstack Software Developer with 9 years of proven leadership
   and meaningfully contributions to teams of varying size and
   scope. With my results-driven mentality. I transformed my team by seeking, learning, and teaching new, efficient
   technologies to make aggressive deadlines consistently
