@@ -1,15 +1,15 @@
 export const applicantData = {
   applicantName: "Gulrez",
-  designation: "Senior Software Engineer",
-  briefSummary: `Senior Front-End Developer with 7 years of proven leadership
+  designation: "Fullstak Software Developer",
+  briefSummary: `Fullstak Software Developer with 9 years of proven leadership
   and meaningfully contributions to teams of varying size and
   scope. With my results-driven mentality. I transformed my team by seeking, learning, and teaching new, efficient
   technologies to make aggressive deadlines consistently
   achievable. Passionate about going the extra mile to ensure the
   customer is unquestionably satisfied with the product or service
   provided.`,
-  mail: "gulrez0491@gmail.com",
-  mobile: "+1-317-540-5173",
+  mail: "Bawagulrez@gmail.com",
+  mobile: "+1-825-889-7425",
   website: "gulrezbawa.com",
   linkedIn: "linkedin.com/in/gulrez-bawa",
   certifications: {
@@ -64,10 +64,13 @@ export const applicantData = {
       "React JS",
       "Typescript",
       "Javascript",
+      "GraphQL",
+      "Azure",
       "HTML",
       "CSS",
       "DHTMLX",
       "Outlook Add-In",
+      "Iaas",
       "React Final Form",
       "BaseWeb Design",
       "Progessive Web Applications ( PWA )",
@@ -110,8 +113,19 @@ export const applicantData = {
     title: "PROFESSIONAL EXPERIENCE",
     list: [
       {
+        name: "Lodgelink",
+        year: "2023 - Present",
+        subTitle: "Fullstack Software Developer",
+        details: [
+          `ERP implementation, Distributed Architecture`,
+          `Bulk Chargesheet creation`,
+          `Handeling TimeZone features`,
+          `Implemented Reusable efficient components`,
+        ],
+      },
+      {
         name: "Jifflenow Technology",
-        year: "2021 - Present",
+        year: "2021 - 2023",
         subTitle: "Senior Software Engineer",
         details: [
           `Working as front end developer`,
