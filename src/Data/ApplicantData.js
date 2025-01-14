@@ -11,7 +11,7 @@ export const applicantData = {
   mail: "Bawagulrez@gmail.com",
   mobile: "+1-825-889-7425",
   website: "gulrezbawa.com",
-  linkedIn: "linkedin.com/in/gulrez-bawa",
+  linkedIn: "linkedin.com/in/gulrezbawa",
   certifications: {
     title: "CERTIFICATIONS",
     list: [
