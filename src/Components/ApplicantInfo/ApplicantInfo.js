@@ -44,7 +44,7 @@ export const ApplicantInfo = () => {
       case "mobile":
         return `tel:${value.replace("-", "")}`;
       case "website":
-        return `https://www.${value}`;
+        return `${value}`;
       case "linkedIn":
         return `https://www.${value}`;
       default:
