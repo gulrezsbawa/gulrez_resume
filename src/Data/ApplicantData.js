@@ -10,7 +10,7 @@ export const applicantData = {
   provided.`,
   mail: "Bawagulrez@gmail.com",
   mobile: "+1-825-889-7425",
-  website: "gulrezbawa.com",
+  website: "https://gulrezbawa.com/",
   linkedIn: "linkedin.com/in/gulrezbawa",
   certifications: {
     title: "CERTIFICATIONS",
