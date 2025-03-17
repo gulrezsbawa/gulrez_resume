@@ -15,6 +15,11 @@ export const applicantData = {
   certifications: {
     title: "CERTIFICATIONS",
     list: [
+       {
+        subTitle: "AZ-900 Microsoft Azure",
+        year: "16 March, 2025",
+        details: [],
+      },
       {
         subTitle: "DevOps Certified",
         year: "2018",
@@ -70,7 +75,7 @@ export const applicantData = {
       "CSS",
       "DHTMLX",
       "Outlook Add-In",
-      "Iaas",
+      "Ifrastructe as Code IaC",
       "React Final Form",
       "BaseWeb Design",
       "Progessive Web Applications ( PWA )",
@@ -95,18 +100,20 @@ export const applicantData = {
   tools: {
     title: "TOOLS",
     list: [
+       "Visual Studio Code",
       "JIRA",
+      "Confluence",
+      "Azure DevOps",
+      "Figma",
       "MS Word",
       "Excel",
       "Powerpoint",
       "Visio",
       "SQL",
       "Postman",
-      "Visual Studio Code",
       "Visual Studio Professional",
       "Android Studio",
-      "Unity 3D",
-      "Figma",
+      "Unity 3D"
     ],
   },
   professionServices: {
