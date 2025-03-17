@@ -160,6 +160,8 @@ export const applicantData = {
   portfolio: {
     title: "PORTFOLIO",
     list: [
+      { name:"Aircall", link:"https://remarkable-souffle-45dcde.netlify.app/"},
+      { name:"Promptopia", link:"https://promptopia-clgiky37a-gulrezsbawa.vercel.app/"},
       { name: "Health & Glow", link: "https://gulrezbawa.com/healthandglow/" },
       { name: "TikTok", link: "https://gulrezsbawa.github.io/tiktok/" },
       { name: "Amazon", link: "https://gulrezsbawa.github.io/amazonclone/" },
